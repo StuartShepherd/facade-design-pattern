@@ -1,10 +1,9 @@
-﻿namespace FacadeDesignPattern
+﻿namespace FacadeDesignPattern;
+
+public class Client
 {
-    public class Client
+    public static void ClientCode(Facade facade)
     {
-        public static void ClientCode(Facade facade)
-        {
-            Console.Write(facade.Operation());
-        }
+        Console.Write(facade.Operation());
     }
 }

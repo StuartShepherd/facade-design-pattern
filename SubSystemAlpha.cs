@@ -1,11 +1,10 @@
-﻿namespace FacadeDesignPattern
-{
-    public class SubSystemAlpha
-    {
-        public string Initialise() =>
-            "SubsystemAlpha is initialised";
+﻿namespace FacadeDesignPattern;
 
-        public string Process() =>
-            "SubsystemAlpha is processed";
-    }
+public class SubSystemAlpha
+{
+    public string Initialise() =>
+        "SubsystemAlpha is initialised";
+
+    public string Process() =>
+        "SubsystemAlpha is processed";
 }
